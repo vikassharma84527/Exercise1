@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LoginApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.trans" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
+    </style>
+</resources>
